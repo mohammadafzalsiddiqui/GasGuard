@@ -65,7 +65,6 @@ Follow these instructions to get a copy of the project up and running on your lo
         ```bash
         cp .env.example .env 
         ```
-        (You'll need to create an `.env.example` file if you don't have one, or instruct users to create `.env` directly.)
         Open the `.env` file and add your OKX API credentials:
         ```env
         OKX_API_KEY="YOUR_OKX_API_KEY"
