@@ -31,7 +31,10 @@ GasGuard Swap leverages the OKX DEX API to analyze available bridges and routes,
 **Backend:**
 *   Node.js
 *   Express.js
-*   OKX DEX API for quote aggregation and market data.
+*   OKX DEX API, specifically utilizing:
+    *   `/api/v5/dex/aggregator/all-tokens` for token information.
+    *   `/api/v5/dex/cross-chain/quote` for route discovery.
+    *   `/api/v5/dex/pre-transaction/gas-price` for live gas fee data.
 
 ## 🚀 Getting Started
 
